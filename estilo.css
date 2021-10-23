@@ -1,0 +1,115 @@
+* {
+  margin: 0px;
+}
+
+html,
+body {
+  height: 100%;
+}
+
+body {
+  --gray: hsl(240, 6%, 17%);
+  --grayLight: hsl(240, 6%, 18%);
+  display: grid;
+  place-items: center;
+  color: white;
+  font-family: 'Roboto', sans-serif;
+  font-weight: 400;
+  position: relative;
+  bottom: 150px;
+  background: var(--gray);
+  background-image: url(images/Desktop.png);
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+main {
+  background-position: center;
+  display: grid;
+  width: 100vw;
+  height: 100vh;
+  place-items: center;
+  margin: 0px;
+  position: absolute;
+  top: 150px;
+  z-index: 2;
+  border-radius: 15px;
+}
+main > img {
+  top: 3.5rem;
+  position: relative;
+  z-index: 3;
+}
+.container {
+  background-color: var(--grayLight);
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-image: url(images/maskk.png);
+  width: 22.38rem;
+  height: 33.8rem;
+  text-align: center;
+  border-radius: 15px;
+}
+.faixa {
+  position: absolute;
+  top: -50px;
+}
+.quebra {
+  position: absolute;
+  top: 105px;
+  z-index: 1;
+}
+.avatar {
+  margin: 3rem auto;
+  position: relative;
+}
+.avatar span {
+  position: absolute;
+  margin-top: 25px;
+  margin-left: -25px;
+  z-index: 1;
+}
+.edicao {
+  width: 10rem;
+  height: 11.5rem;
+  object-fit: cover;
+  clip-path: polygon(0 25%, 50% 0, 100% 25%, 100% 80%, 50% 100%, 0 80%);
+  margin-top: 3rem;
+  margin-bottom: -2rem;
+}
+.more a {
+  margin-left: 2px;
+}
+h1 {
+  margin: 5px;
+}
+
+a {
+  text-decoration: none;
+  color: white;
+  margin-top: 0.15rem;
+}
+a {
+  box-shadow: inset;
+  box-shadow: 1px -2px 3px 3px rgb(12, 170, 162);
+}
+div > a {
+  box-shadow: none;
+}
+a:hover {
+  color: rgb(12, 170, 162);
+}
+p {
+  margin-top: 0.5rem;
+}
+
+ul {
+  list-style: none;
+  display: flex;
+  justify-content: center;
+  gap: 0.9rem;
+  margin-top: 2.2rem;
+  padding: 0px;
+}
